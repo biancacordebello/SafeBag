@@ -11,8 +11,9 @@
     font-family: "Lato", sans-serif;
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
-    color: #000E41;  }
+    box-sizing: content-box;
+    color: #000E41;  
+}
 
 body{
     height: 100vh;
@@ -24,6 +25,7 @@ main{
     height: 100vh;
     width: 100vw;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -81,4 +83,8 @@ button{
 
     cursor: pointer;
 
+}
+
+#container-web {
+    display: none;
 }
