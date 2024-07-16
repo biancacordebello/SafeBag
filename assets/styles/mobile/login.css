@@ -11,13 +11,8 @@
     font-family: "Lato", sans-serif;
     padding: 0px;
     margin: 0px;
-    box-sizing: content-box;
+    box-sizing: border-box;
     color: #000E41;  
-}
-
-body{
-    height: 100vh;
-    width: 100vw;
 }
 
 main{
@@ -32,6 +27,7 @@ main{
 #image{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 h1{
@@ -45,9 +41,10 @@ p{
 }
 
 #form{
+    font-size: 0.875rem;
     display: flex;
     flex-direction: column;
-    font-size: 0.875rem;
+    
 }
 
 label{
@@ -85,6 +82,17 @@ button{
 
 }
 
-#container-web {
+#container-web-text{
+    display: none;
+
+}
+
+hr{
     display: none;
 }
+
+#web-main-text{
+    display: none;
+
+}
+

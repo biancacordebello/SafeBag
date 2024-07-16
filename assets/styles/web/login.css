@@ -2,29 +2,74 @@
 
 @media screen and (min-width: 992px)  {
 
+
+*{
+    padding: 0;
+} 
+
 main{
     padding: 0px;
-    margin: 0px;
+    display: block;
 }
 
-#container-web{
-    padding: 0;
+.container{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
-    align-items: center;
     height: 100vh;
     width: 40vw;
-    background-color: #00186f;
+    padding: 70px;
+    background-color: #020f3e;
 }
 
-#login{
+#form{
     display: flex;
     align-items: center;
     flex-direction: row;
+}
+
+#container-web-text{
+    display: block;
+    font-family: "Lato", sans-serif;
+    margin-bottom: 140px;
+    padding-left: 20px;
+    width: 400px;
+
+    word-spacing: 6%;
+    line-height: 1.5em;
+    font-weight: 500;
+    font-size: 35px;
+    color: #ffff;
+    white-space: normal;
+    text-align: left;
+}
+
+.container-img-text{
+    padding: 0;
+    margin: 0;
+    width: 0;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+
+}
+
+h1{
+    padding: 0;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 2.2rem;
+}
+
+img{
+    width: fit-content;
+    height: 15vh;
+    padding: 0px;
+    
 
 }
 
 
+  
 
 }
