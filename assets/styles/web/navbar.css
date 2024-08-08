@@ -25,6 +25,7 @@
   
 .navbar_link{
   padding-inline: 20px;
+  cursor: pointer;
 }
 
 .navbar_items_right {
@@ -34,4 +35,8 @@
 .navbar_link-brand{
   font-size: 25px;
 
+}
+
+.navbar_link_toggle{
+  display: none;
 }
