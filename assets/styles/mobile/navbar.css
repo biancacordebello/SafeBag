@@ -11,21 +11,26 @@
 
 .navbar{
     flex-direction: column;
-
 }
 
 .navbar_items {
   display: none;  
+  flex-direction: column;
+
 }
 
 .navbar_link{
     text-align: center;
-    justify-content: space-evenly;
-    padding: 10px;    margin: 0;
+    margin: 0;
+}
+
+.navbar_link:hover{
+    background-color: #010925; 
 }
 
 .navbar_items_right{
     margin-left: 0;
+    margin-top: 10px;
 }
 
 .navbar_link_toggle{
@@ -33,11 +38,27 @@
     display: initial;
     position: absolute;
     cursor: pointer;
-    padding-inline: 25px;
-}
-.navbar_toggleShow {
-    display: flex;
-    padding: 10px;
 }
 
+
+.navbar_toggleShow {
+    display: block;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 25vh;
+    background-color: #020f3cf1; 
+    font-size: 16px;
+    color: white;
+
+}
+
+
+.navbar_toggleShow .navbar_link {
+    padding: 20px;
+    text-align: left; 
+    border-bottom: 0.5px solid #273052f1; 
+}
 }
