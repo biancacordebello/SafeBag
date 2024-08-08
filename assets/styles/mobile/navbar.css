@@ -11,10 +11,17 @@
 
 .navbar{
     flex-direction: column;
+
 }
 
 .navbar_items {
-  display: none;
+  display: none;  
+}
+
+.navbar_link{
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 10px;    margin: 0;
 }
 
 .navbar_items_right{
@@ -26,6 +33,11 @@
     display: initial;
     position: absolute;
     cursor: pointer;
+    padding-inline: 25px;
+}
+.navbar_toggleShow {
+    display: flex;
+    padding: 10px;
 }
 
 }
