@@ -1,9 +1,8 @@
-function classToggle() {
-    const navs = document.querySelectorAll('.navbar_items')
-    
-    navs.forEach(nav => nav.classList.toggle('navbar_toggleShow'));
-  }
-  
-  document.querySelector('.navbar_link_toggle')
-    .addEventListener('click', classToggle);
-  
+const hamburguer = document.getElementById("burguer-menu");
+
+const navMenu = document.querySelector(".navbar_toggleShow");
+
+hamburguer.addEventListener("click", () => {
+    navMenu.classList.toggle('active');
+    hamburguer.classList.toggle('active')
+});
