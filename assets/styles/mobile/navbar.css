@@ -48,7 +48,7 @@
 }
 
 .navbar_toggleShow.active {
-    right: 0;
+    left: 0;
 
 }
 .navbar_toggleShow {
@@ -57,7 +57,7 @@
     flex-direction: column;
     position: fixed;
     top: 50px;
-    right: -100%;
+    left: -100%;
     height: 100vh;
     width: 23vh;
     background-color: #020f3cd7; 

@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/styles/web/main.css">
+    <link rel="stylesheet" href="../assets/styles/mobile/main.css">
+
     <link rel="stylesheet" href="../assets/styles/web/navbar.css">
+    <link rel="stylesheet" href="../assets/styles/mobile/navbar.css">
 
 
     <title>SafeBag</title>
@@ -25,5 +28,8 @@
       </div>
     </div>
 </div>
+
+<script src="../assets/js/navbar.js"></script>
+
 </body>
 </html>

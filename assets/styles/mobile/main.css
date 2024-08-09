@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+@media (max-width: 768px) {
+
+*{
+    font-family: "Lato", sans-serif;   
+    padding: 20px;
+  }
+
+.container{
+    flex-direction: column;
+    align-items: flex-start; 
+    box-shadow: none;
+    padding: 20px;
+
+}
+
+
+.container-right {
+    display: flex;
+    flex-direction: column;     
+    align-items: flex-start;
+}  
+
+#divBusca{
+    width: 90vw;
+    height: 2.2rem;
+  }
+
+}
