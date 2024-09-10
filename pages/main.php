@@ -29,6 +29,14 @@
     </div>
 </div>
 
+    <!-- Ver uma forma de duplicar esses alertas 
+        Os dados inclusos na div abaixo são para "ilustrações" até ter o bd 
+    -->
+<div class="alerta">
+  <p class="id-mala">Bagagem SAFE00000VIADDMMYYINT</p>
+  <p class="dono-mala">Bianca, Felipe, Guilherme, Isac, Julia, Vinicius</p>
+</div>
+
 <script src="../assets/js/navbar.js"></script>
 
 </body>

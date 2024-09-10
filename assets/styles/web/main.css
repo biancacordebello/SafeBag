@@ -3,75 +3,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 *{
-    font-family: "Lato", sans-serif;   
-    padding: 0;
+  font-family: "Lato", sans-serif;   
+  margin: 0;
+  box-sizing: border-box; 
 }
 
 .container{
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  padding: 1.5rem;
+  gap: 2rem; 
+  justify-content: space-between;
+  box-shadow: 0px 4px 5px #00000080;
+
+}
+
+.container-right {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  gap: 1rem;
+    
+  }
+
+#main-title{
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+#search-title{
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+
+#divBusca{
+  background-color: #45485437;
+  border: solid 2px #000E41;
+  border-radius: 5px;
+  width: max-content;
+  height: 2rem;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+
+  }
+
+input:focus{
+  border: none; 
+  outline: none; 
+  box-shadow: none;
+  background: transparent;
+} 
+
+#txtBusca{
+  float: left;
+  background-color: transparent;
+  padding-left: 0.313rem;
+  font-size: 1.125rem;
+  border: none;
+  height: 2rem;
+  width: 11.938rem;
+  }
+  
+#btnBusca{
+  border: none;
+  float: right;
+  height: 2rem;
+  width: 4.375rem;
+  font-weight: bold;
+  background:#000E41;
+  color: #ffff;
+  cursor: pointer;
+  }
+  
+  .alerta {
     display: flex;
     flex-direction: row;
     align-items: center; 
     padding: 1.5rem;
     gap: 2rem; 
     justify-content: space-between;
-    box-shadow: 0px 4px 5px #00000080;
-
-}
-
-.container-right {
-    display: flex;
-    flex-direction: row; 
-    align-items: center;
-    gap: 1rem;
-    
   }
-
-#main-title{
-    font-size: 1.2rem;
-    font-weight: 800;
-}
-
-#search-title{
-    font-size: 1rem;
-    font-weight: 500;
-}
-
-
-#divBusca{
-    background-color: #45485437;
-    border: solid 2px #000E41;
-    border-radius: 5px;
-    width: max-content;
-    height: 2rem;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
-
-  }
-
-input:focus{
-    border: none; 
-    outline: none; 
-    box-shadow: none;
-    background: transparent;
-} 
-
-  #txtBusca{
-    float: left;
-    background-color: transparent;
-    padding-left: 0.313rem;
-    font-size: 1.125rem;
-    border: none;
-    height: 2rem;
-    width: 11.938rem;
-  }
-  
-  #btnBusca{
-    border: none;
-    float: right;
-    height: 2rem;
-    width: 4.375rem;
-    font-weight: bold;
-    background:#000E41;
-    color: #ffff;
-    cursor: pointer;
-  }
-  
