@@ -33,11 +33,13 @@
         Os dados inclusos na div abaixo são para "ilustrações" até ter o bd 
     -->
 <div class="alerta">
-  <p class="id-mala">Bagagem SAFE00000VIADDMMYYINT</p>
-  <p class="dono-mala">Bianca, Felipe, Guilherme, Isac, Julia, Vinicius</p>
+  <button class="id-mala">Bagagem SAFE00000VIADDMMYYINT</button>
+      <div class="info-mala">
+        <p>Bianca,s Felipe, Guilherme, Isac, Julia, Vinicius</p>
 </div>
 
 <script src="../assets/js/navbar.js"></script>
+<script src="../assets/js/accordion.js"></script>
 
 </body>
 </html>

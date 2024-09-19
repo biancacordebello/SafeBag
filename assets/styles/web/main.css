@@ -74,13 +74,55 @@ input:focus{
   background:#000E41;
   color: #ffff;
   cursor: pointer;
-  }
+}
   
-  .alerta {
-    display: flex;
-    flex-direction: row;
-    align-items: center; 
-    padding: 1.5rem;
-    gap: 2rem; 
-    justify-content: space-between;
-  }
+.alerta {
+  padding: 1.5rem;
+  gap: 2rem; 
+}
+
+.id-mala {
+  background-color: #fff;
+  color: #000; 
+  border: none; 
+  border-bottom: 1px solid #705D56; 
+  cursor: pointer; 
+  padding: 10px 0; 
+  width: 100%; 
+  outline: none;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+}
+
+.id-mala:hover {
+  background-color: #f0f0f0;
+  border-color: #999;
+}
+
+.id-mala:after {
+  content: '\00ff0b'; 
+  color: #282727ea;
+  font-size: 1.5rem; 
+  transition: transform 0.3s;
+}
+
+.active:after {
+  content: "\002212";
+  color: #282727ea;
+  transform: rotate(180deg); /* Rotaciona o ícone quando ativo */
+}
+
+.info-mala {
+  margin-top: 5px;
+  background-color: #fff; 
+  max-height: 0;
+  overflow: hidden; 
+  transition: max-height 0.3s ease-out; 
+  color: #181818;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif; 
+}
