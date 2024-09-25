@@ -20,6 +20,9 @@
 
 }
 
+a {
+  color: white;
+}
 
 .navbar_items{
   display: flex;

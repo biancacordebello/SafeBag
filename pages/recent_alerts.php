@@ -18,7 +18,7 @@
 <body>
 
     <div class="container">
-    <h1 id="main-title">Todos os Alertas</h1>
+    <h1 id="main-title">Alertas Recentes</h1>
 
     <div class="container-right">
     <p id="search-title">CPF do proprietário ou código SAFE</p>
@@ -36,6 +36,8 @@
   <button class="id-mala">Bagagem SAFE00000VIADDMMYYINT</button>
       <div class="info-mala">
         <p>Bianca,s Felipe, Guilherme, Isac, Julia, Vinicius</p>
+        <button class="ver-mais">Ver mais</button>
+
 </div>
 
 <script src="../assets/js/navbar.js"></script>

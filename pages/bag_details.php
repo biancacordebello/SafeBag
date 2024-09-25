@@ -18,7 +18,8 @@
 <body>
 
     <div class="container">
-    <h1 id="main-title">Todos os Alertas</h1>
+    <h1 id="main-title">Bagagem: </h1>
+    <p>Código da bagagem</p>
 
     <div class="container-right">
     <p id="search-title">CPF do proprietário ou código SAFE</p>
@@ -32,14 +33,9 @@
     <!-- Ver uma forma de duplicar esses alertas 
         Os dados inclusos na div abaixo são para "ilustrações" até ter o bd 
     -->
-<div class="alerta">
-  <button class="id-mala">Bagagem SAFE00000VIADDMMYYINT</button>
-      <div class="info-mala">
-        <p>Bianca,s Felipe, Guilherme, Isac, Julia, Vinicius</p>
-</div>
+
 
 <script src="../assets/js/navbar.js"></script>
-<script src="../assets/js/accordion.js"></script>
 
 </body>
 </html>
