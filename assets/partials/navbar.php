@@ -18,12 +18,17 @@
           <i class="fas fa-bars"></i>
         </div>    
         <nav class="navbar_items navbar_toggleShow">
+          <a href="../pages/main.php">
         <div class="navbar_link">
           Todos Alertas
         </div>
+        </a>
+
+        <a href="../pages/recent_alerts.php">
         <div class="navbar_link">
           Alertas Recentes
         </div>
+        </a> 
         <div class="navbar_link">
           Cadastro de Bagagem
         </div>
