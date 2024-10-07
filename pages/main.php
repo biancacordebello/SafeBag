@@ -12,7 +12,7 @@
 
     <title>SafeBag</title>
 
-    <?php include '../assets/partials/navbar.php'; ?> 
+     <?php include '../assets/partials/navbar.php'; ?>
 
 </head>
 <body>
