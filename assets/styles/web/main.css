@@ -78,12 +78,11 @@ input:focus{
 }
   
 #alerta {
-  padding: 1.5rem;
-  gap: 2rem; 
+  padding: 1rem;
+  gap: 0.5rem; 
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 10px;
 }
 
 .id-mala {
