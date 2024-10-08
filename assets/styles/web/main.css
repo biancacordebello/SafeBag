@@ -80,6 +80,10 @@ input:focus{
 #alerta {
   padding: 1.5rem;
   gap: 2rem; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 .id-mala {
@@ -133,18 +137,24 @@ input:focus{
   font-family: 'Lato', sans-serif; 
 }
 
-
-.ver-mais {
-  background-color: #000E41;
-  color: white; 
-  border-bottom: 1px solid #705D56; 
-  cursor: pointer; 
-  padding: 20px 0; 
-  width: 100%; 
-  outline: none;
-  font-family: 'Lato', sans-serif;
-  font-size: 18px;
-  display: flex; 
-  align-items: center;
-  justify-content: space-between;
+.id-mala-container {
+  flex: 1;
 }
+
+
+.info-mala-container {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.info-mala {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease-out;
+}
+
+.info-mala.active {
+  max-height: 500px; 
+  transition: max-height 0.5s ease-in;
+}
+
