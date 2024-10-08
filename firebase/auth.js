@@ -52,3 +52,4 @@ export const checkAuthState = (callback) => {
     callback(user);
   });
 };
+

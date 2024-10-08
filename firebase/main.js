@@ -1,6 +1,6 @@
 // js/main.js
 
-import { login, logout } from './auth.js';
+import { login } from './auth.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   const loginForm = document.getElementById('loginForm');
@@ -26,15 +26,6 @@ document.addEventListener('DOMContentLoaded', () => {
         window.location.href = "pages/main.html"; // Redirecionar para a home page
       });
   });
-
-  // const logoutBtn = document.getElementById('logoutBtn');
-  // logoutBtn.addEventListener('click', () => {
-  //   logout()
-  //     .then(() => {
-  //       window.location.href = "index.html"; // Redirecionar para a página de login após logout
-  //     })
-  //     .catch((error) => {
-  //       alert(`Erro ao fazer logout: ${error.message}`);
-  //     });
-  // });
+  
 });
+
