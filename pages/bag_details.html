@@ -8,6 +8,10 @@
 
     <link rel="stylesheet" href="../assets/styles/web/navbar.css">
     <link rel="stylesheet" href="../assets/styles/mobile/navbar.css">
+    
+    <link rel="stylesheet" href="../assets/styles/web/bag_details.css">
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
@@ -26,7 +30,7 @@
     </script>
 
     <div class="container">
-    <h1 id="main-title">Bagagem: </h1>
+    <h1 id="main-title">Bagagem: <div id="bagagem">Id Bagagem</div></h1>
 
     <div class="container-right">
     <p id="search-title">CPF do proprietário ou código SAFE</p>
@@ -36,12 +40,42 @@
       </div>
     </div>
 </div>
-    <p id="status-bagagem">Status da Bagagem: <div id="circle-status-color"></div></p>
-    <p id="id-bagagem">Exemplo -Alerta</p>
+<div class="container-1">
+    <div id="status-bagagem">Status da Bagagem<div id="circle-status-color"></div></div>
+    <div id="id-bagagem">Exemplo -Alerta</div>
 
-    <p class="aviao">Avião previsto: <div id="id-voo">A320</div></p>
-    <p class="aviao">Alerta: <div id="id-voo-errado">A215</div></p>
+    <div class="aviao">Avião Previsto: <div id="id-voo">A320</div></div>
+    <div class="aviao">Alerta: <div id="id-voo-errado">A215</div></div>
+</div>
 
+<div class="container-1">
+    <p id="title-info-bagagem">Informações Sobre a Bagagem</p>
+
+    <div class="container-info-bagagem">
+        <p>Nome do proprietário: </p>
+        <div id="nome-dono">Sara Melo</div>
+    </div>
+
+    
+    <div class="container-info-bagagem">
+        <p>Telefone: </p>
+        <div id="telefone-dono">(19)99494-0348</div>
+    </div>
+
+    
+    <div class="container-info-bagagem">
+        <p>CPF: </p>
+        <div id="cpf-dono">0000000</div>
+    </div>
+
+
+    
+    <div class="container-info-bagagem">
+        <p>RG: </p>
+        <div id="rg-dono">123.456.78-9</div>
+    </div>
+
+</div>
 
 </body>
 </html>

@@ -1,3 +1,53 @@
+.container-1{
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  gap: 1rem; 
+}
+
 #status-bagagem{
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+
+}
+
+#circle-status-color{
+    width: 20px;          
+    height: 20px;         
+    background-color: red; 
+    border-radius: 50%;
+
+}
+
+#id-bagagem{
+    margin-bottom: 1rem;
+    font-weight: 700;
+
+}
+
+.aviao{
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+
+
+}
+
+#title-info-bagagem{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.container-info-bagagem{
+    border-bottom: 1px solid rgb(74, 74, 74);    
+}
+
+.container-info-bagagem p{
+    font-weight: 700;
+}
+
+#main-title{
     display: flex;
 }
