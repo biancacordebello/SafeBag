@@ -97,6 +97,7 @@ input:focus{
   display: flex; 
   align-items: center;
   justify-content: space-between;
+  text-transform:uppercase;
 }
 
 .id-mala:hover {
@@ -104,11 +105,15 @@ input:focus{
   border-color: #999;
 }
 
-.id-mala:after {
+.icon:after {
   content: '\00ff0b'; 
   color: #282727ea;
   font-size: 1.5rem; 
   transition: transform 0.3s;
+  border: none;
+  background-color: #fff;
+  display: flex; 
+  cursor: pointer; 
 }
 
 .active:after {
