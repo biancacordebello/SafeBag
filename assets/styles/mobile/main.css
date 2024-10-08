@@ -30,5 +30,9 @@
     height: 2.2rem;
   }
 
-
+.id-mala {
+  font-size: 15px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
 }
