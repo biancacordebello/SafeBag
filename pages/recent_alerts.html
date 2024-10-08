@@ -8,17 +8,22 @@
 
     <link rel="stylesheet" href="../assets/styles/web/navbar.css">
     <link rel="stylesheet" href="../assets/styles/mobile/navbar.css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <title>SafeBag</title>
 
-    <?php include '../assets/partials/navbar.php'; ?> 
-
 </head>
 <body>
+<div id="navbar"></div>
+
+<script>
+    $(function(){
+        $("#navbar").load("/assets/partials/navbar.html");
+    });
+</script>
 
     <div class="container">
-    <h1 id="main-title">Todos os Alertas</h1>
+    <h1 id="main-title">Alertas Recentes</h1>
 
     <div class="container-right">
     <p id="search-title">CPF do proprietário ou código SAFE</p>
@@ -36,6 +41,8 @@
   <button class="id-mala">Bagagem SAFE00000VIADDMMYYINT</button>
       <div class="info-mala">
         <p>Bianca,s Felipe, Guilherme, Isac, Julia, Vinicius</p>
+        <button class="ver-mais">Ver mais</button>
+
 </div>
 
 <script src="../assets/js/navbar.js"></script>

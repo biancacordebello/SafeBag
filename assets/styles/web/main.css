@@ -76,7 +76,7 @@ input:focus{
   cursor: pointer;
 }
   
-.alerta {
+#alerta {
   padding: 1.5rem;
   gap: 2rem; 
 }

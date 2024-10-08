@@ -6,14 +6,22 @@
     <link rel="stylesheet" href="assets/styles/mobile/login.css">
     <link rel="stylesheet" href="assets/styles/web/login.css">
 
+
     <title>SafeBag</title>
 </head>
 <body>
+
     <script>
         function redirecionar() {
             window.location.href = "pages/main.php";
         }
     </script>
+
+    <!-- <script>
+        function redirecionar() {
+            window.location.href = "pages/main.php";
+        }
+    </script> -->
     <main>
             <div id="form">    
                 <div class="container">   
@@ -35,6 +43,18 @@
         </div>
 
     </main>
+                <form id="loginForm">
+                    <label>Email</label><input id="email" type="email" placeholder="Digite seu email">
+                    <label>Senha</label><input id="password" type="password" placeholder="Digite sua senha">
+                    <button type="submit">Entrar</button>
+                </form>
+                <div id="errorMessage" style="color: red;"></div>
+            </div>
+         
+        </div>
+
+    </main>
+    <script type="module" src="./firebase/main.js"></script>
     
 </body>
 </html>
