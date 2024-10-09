@@ -40,6 +40,11 @@ a {
 
 }
 
+.navbar_link:hover{
+  color: #f9f9f9;
+
+}
+
 .navbar_link-brand{
   font-size: 25px;
   color: #fff;
