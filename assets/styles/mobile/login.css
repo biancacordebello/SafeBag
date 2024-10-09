@@ -11,98 +11,78 @@
 
 @media (max-width: 768px) {
 
-*{
-    font-family: "Lato", sans-serif;
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    color: #000E41;  
-}
-
-main{
-    padding: 35px;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-h1{
-    padding: 10px 0px;
-    font-weight: 900;
-    font-size: 1.5rem;
-}
-
-p{
-    font-size: 0.875rem;
-}
-
-#form{
-    font-size: 0.875rem;
+.container {
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    width: 50%;
+    color: rgb(255, 255, 255);
 }
 
-.labels{
+#login-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #191c2dd2), 
+                    url('/assets/images/airport.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 60vw; 
+    height: 100vh; 
+}
+
+#form {
+    width: 100%;
+}
+
+#loginForm {
+    padding-top: 2rem;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
-label{
-    padding: 7% 0% 3% 0%;
-}
-
-input{
-    padding: 5px;
-    height: 2.5rem;
-    background-color: #000e413d;
-    border-style: none;
+#loginForm input {
+    padding: 15px;
+    background: #50546cd2;
+    margin: 10px 0;
     border-radius: 5px;
-    outline: 2px solid #adbdf6;
-}
-
-input::placeholder{
-    font-size: 0.775rem;
-    color: #000e416e
-}
-
-button{
-    height: 2.5rem;
-    border-style: none;
-    border-radius: 5px;
-    outline: 2px solid #00186f;
-    background-color: #000E41;
-    
-    margin: 7% 0% 3% 0%;
-
+    border: 1px solid #191c2dd2;
+    transition: padding 0.5s ease;
     color: #fff;
-    font-size: 1em;
-    font-weight: 500;
+    font-size: 15px;
 
+}
+
+#loginForm input:focus {
+    padding: 20px;
+    outline: none; 
+    border-left: 4px solid #f9b17a;
+}
+
+#loginForm button {
+    padding: 10px 20px;
+    background-color: #f9b17a;
+    color: #2d3250;
+    font-weight: 700;
+    border: none;
     cursor: pointer;
-
+    border-radius: 5px;
+    font-size: 16px;
+    transition: box-shadow 0.3s ease;
 }
 
-#container-web-text{
-    display: none;
-
+#loginForm button:hover {
+    box-shadow: 0 0 15px #f9b17a; 
 }
 
-hr{
-    display: none;
+.container-img-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
 }
 
-#web-main-text{
-    display: none;
-
+.container-img-text p {
+    font-size: 16px;
 }
 
-}
+}    

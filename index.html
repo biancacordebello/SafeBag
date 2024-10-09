@@ -5,45 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles/mobile/login.css">
     <link rel="stylesheet" href="assets/styles/web/login.css">
-
-
     <title>SafeBag</title>
 </head>
 <body>
-
-
-
-    <!-- <script>
-        function redirecionar() {
-            window.location.href = "pages/main.php";
-        }
-    </script> -->
     <main>
-            <div id="form">    
-                <div class="container">   
-                <p id="container-web-text">Tenha o Melhor Controle das Bagagens na ACME Airlines</p>
+        <div class="container">    
+            <div id="form">   
                 <div class="container-img-text">  
-                <img src="assets/images/icon.png" height="30%" width="30%"/>
-                <h1>SafeBag</h1>
+                    <h1>SafeBag</h1>
+               
+                <div class="labels">
+                    <p>Utilize suas credenciais para fazer login</p>
                 </div>
-            </div>
-            
-            <div class="labels">
-                <h1 id="web-main-text">Login</h1>
-                <p>Utilize suas credenciais para fazer login</p>
-                <hr>
-                <form id="loginForm">
-                    <label>Email</label><input id="email" type="email" placeholder="Digite seu email">
-                    <label>Senha</label><input id="password" type="password" placeholder="Digite sua senha">
-                    <button type="submit">Entrar</button>
-                </form>
-                <div id="errorMessage" style="color: red;"></div>
+                    <form id="loginForm">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" placeholder="Digite seu email">
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" placeholder="Digite sua senha">
+                        <button type="submit">Entrar</button>
+                    </form>
+                    <div id="errorMessage" style="color: rgb(255, 105, 105); padding-top: 1rem;"></div>
+                </div>
             </div>
         </div>
 
+        <div id="login-image"></div>
     </main>
-            
+
     <script type="module" src="./firebase/main.js"></script>
-    
 </body>
 </html>
