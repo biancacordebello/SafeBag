@@ -116,8 +116,8 @@ input:focus{
 }
 
 .id-mala:hover {
-  background-color: #191c2def;
-  border-color: #676f9d;
+  color: #676f9d;
+
 }
 
 .icon:after {
