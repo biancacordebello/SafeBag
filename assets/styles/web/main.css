@@ -78,9 +78,15 @@ input:focus{
   height: 2rem;
   width: 4.375rem;
   font-weight: bold;
-  background:#f9b17a;
+  background-color:#f9b17a;
   color: #2d3250;
   cursor: pointer;
+  transition: box-shadow 0.3s ease;
+
+}
+
+#btnBusca button:hover {
+  box-shadow: 0 0 15px #f9b17a; 
 }
   
 #alerta {

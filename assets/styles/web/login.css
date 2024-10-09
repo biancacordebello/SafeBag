@@ -31,8 +31,7 @@ main {
 }
 
 #login-image {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), #191c2dd2), 
-                 url('/assets/images/airport.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #191c2dd2), url('/assets/images/airport.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
