@@ -45,7 +45,7 @@ main {
 }
 
 #loginForm {
-    padding-top: 2rem;
+    padding-top: 1rem;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -71,7 +71,7 @@ main {
 
 #loginForm button {
     padding: 10px 20px;
-    background-color: #f9b17a;
+    background-color: #ffc079e1;
     color: #2d3250;
     font-weight: 700;
     border: none;
