@@ -37,7 +37,10 @@ a {
   padding: 10px;
   cursor: pointer;
   color: #ffffff;
+}
 
+.navbar_link:hover{
+  color: #f9b17a;
 }
 
 .navbar_link-brand{

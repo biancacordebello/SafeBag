@@ -1,48 +1,111 @@
-.container-1{
-  display: flex;
-  flex-direction: column;
-  padding: 1.5rem;
-  gap: 1rem; 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+#img-bag-details {
+    width: 100vw;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #191c2dc5), url('../../images/bags.jpg');
+    height: 30vh;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    transition: color 0.3s ease; 
 }
 
-#status-bagagem{
-    font-size: 18px;
+#seta {
+    position: absolute;
+    padding: 20px;
+    padding-top: 0;
+    top: 20px;
+    left: 20px; 
+    font-size: 24px;
+    color: #fff;
+}
+
+
+
+#img-bag-details p {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 1;
+}
+#img-bag-details p{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+}
+
+.container-1{
+  display: flex;
+  flex-direction: row;
+  padding: 1.5rem;
+  gap: 1rem; 
+  justify-content: space-between;
+}
+
+#id-bagagem{
+    padding: 1.5rem;
+    font-size: 1.3rem;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     font-weight: 700;
 
 }
 
 #circle-status-color{
-    width: 20px;          
-    height: 20px;         
-    background-color: red; 
-    border-radius: 50%;
-
-}
-
-#id-bagagem{
-    margin-bottom: 1rem;
-    font-weight: 700;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8vw;          
+    height: 30px;         
+    background-color: #c53e3e; 
+    border-radius: 10px;
+    font-size: 15px;
 }
 
 .aviao{
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: row;
     font-weight: 700;
 
+    width: 90%;
+    height: 5rem;
+    background-color: #424769;
+    border-radius: 10px;
+    text-align: center;
+}
 
+#voo-errado{
+    background-color: #c53e3e;
+ }
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    font-weight: 700;
 }
 
 #title-info-bagagem{
-    font-size: 18px;
+    font-size: 20px;
+    padding-bottom: 20px;
     font-weight: 700;
 }
 
 .container-info-bagagem{
-    padding-bottom: 10px;
-    border-bottom: 1px solid #676f9d;    
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #676f9d62;    
 }
 
 .container-info-bagagem p{

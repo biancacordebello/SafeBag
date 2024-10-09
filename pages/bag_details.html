@@ -13,6 +13,7 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/267c55b2ea.js" crossorigin="anonymous"></script>
 
 
     <title>SafeBag</title>
@@ -21,29 +22,21 @@
 
 </head>
 <body>
-    <div id="navbar"></div>
 
-
-    <div class="container">
-    <h1 id="main-title">Bagagem: <div id="bagagem">Id Bagagem</div></h1>
-
-    <div class="container-right">
-    <p id="search-title">CPF do proprietário ou código SAFE</p>
-    <div id="divBusca">
-        <input type="text" id="txtBusca" placeholder="Buscar..."/>
-        <button id="btnBusca">Buscar</button>
-      </div>
-    </div>
-</div>
-<div class="container-1">
-    <div id="status-bagagem">Status da Bagagem<div id="circle-status-color"></div></div>
-    <div id="id-bagagem">Exemplo -Alerta</div>
-
-    <div class="aviao">Avião Previsto: <div id="id-voo">A320</div></div>
-    <div class="aviao">Alerta: <div id="id-voo-errado">A215</div></div>
+<div id="img-bag-details">
+    <a href="../pages/main.html" id="seta">
+        <i class="fas fa-arrow-left"></i>
+    </a>
+    <p>Detalhes da bagagem</p>
 </div>
 
-<div class="container-1">
+    <div id="id-bagagem">SAFE00000VIADDMMYYINT<div id="circle-status-color"><p>Alerta</p></div></div>
+    <div class="container-1">
+    <div class="aviao" id="voo-correto"><p>Avião Previsto: <br>A320</p></div>
+    <div class="aviao" id="voo-errado"><p>Alerta:<br> A215</p></div>
+</div>
+
+<div class="container-2">
     <p id="title-info-bagagem">Informações Sobre a Bagagem</p>
 
     <div class="container-info-bagagem">
@@ -69,7 +62,6 @@
         <p>RG: </p>
         <div id="rg-dono">123.456.78-9</div>
     </div>
-
 </div>
 
 <script>
