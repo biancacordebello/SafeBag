@@ -6,10 +6,15 @@
   font-family: "Lato", sans-serif;   
   margin: 0;
   box-sizing: border-box; 
+  color: #fff;
 }
 
+body{
+  background-color: #191c2d;
+}
 
 .container{
+  color: #fff;
   display: flex;
   flex-direction: row;
   align-items: center; 
@@ -36,12 +41,12 @@
 #search-title{
   font-size: 1rem;
   font-weight: 500;
+  color: #fff;
 }
 
 
 #divBusca{
-  background-color: #45485437;
-  border: solid 2px #000E41;
+  background-color: #989aa037;
   border-radius: 5px;
   width: max-content;
   height: 2rem;
@@ -68,12 +73,13 @@ input:focus{
   
 #btnBusca{
   border: none;
+  border-radius: 0px 5px 5px 0px;
   float: right;
   height: 2rem;
   width: 4.375rem;
   font-weight: bold;
-  background:#000E41;
-  color: #ffff;
+  background:#f9b17a;
+  color: #2d3250;
   cursor: pointer;
 }
   
@@ -86,10 +92,10 @@ input:focus{
 }
 
 .id-mala {
-  background-color: #fff;
-  color: #000; 
+  background-color: #191c2dd2;
+  color: #fff; 
   border: none; 
-  border-bottom: 1px solid #705D56; 
+  border-bottom: 0.5px solid #676f9d; 
   cursor: pointer; 
   padding: 10px 0; 
   width: 100%; 
@@ -104,30 +110,29 @@ input:focus{
 }
 
 .id-mala:hover {
-  background-color: #f0f0f0;
-  border-color: #999;
+  background-color: #191c2def;
+  border-color: #676f9d;
 }
 
 .icon:after {
   content: '\00ff0b'; 
-  color: #282727ea;
+  color: #fff;
   font-size: 1.5rem; 
   transition: transform 0.3s;
   border: none;
-  background-color: #fff;
+  background-color: #191c2def;
   display: flex; 
   cursor: pointer; 
+  padding-left: 40vw;
 }
 
 .active:after {
   content: "\002212";
-  color: #282727ea;
-  transform: rotate(180deg); /* Rotaciona o ícone quando ativo */
 }
 
 .info-mala {
   margin-top: 5px;
-  background-color: #fff; 
+  background-color: #191c2d; 
   max-height: 0;
   overflow: hidden; 
   transition: max-height 0.3s ease-out; 

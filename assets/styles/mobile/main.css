@@ -30,6 +30,11 @@
     height: 2.2rem;
   }
 
+.icon:after {
+  padding-left: 10vw;
+}
+
+
 .id-mala {
   font-size: 15px;
   align-items: flex-start;

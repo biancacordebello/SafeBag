@@ -5,46 +5,44 @@
   padding: 0;
   margin: 0;
   font-family: "Lato", sans-serif;
+
   
 }
+
 
 .navbar {
   display: flex;
   align-items: center;
-  background-color: #020f3e;
+  background-color: #2d3250;
   padding: 0.80rem;
   padding-inline: 1.25rem;
-  color: white;
   font-weight: 700;
   font-size: 0.875rem;
 
 }
 
 a {
-  color: white;
+  text-decoration: none;
 }
 
 .navbar_items{
   display: flex;
   margin-left: auto;
   gap: 10px;
-  text-transform: uppercase
+  text-transform: uppercase;
+
 }
   
 .navbar_link{
   padding: 10px;
   cursor: pointer;
+  color: #ffffff;
+
 }
-
-
-.navbar_link:hover{
-  background-color: #010925; 
-  border-radius: 10px;
-}
-
 
 .navbar_link-brand{
   font-size: 25px;
+  color: #fff;
 
 }
 
