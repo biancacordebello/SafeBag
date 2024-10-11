@@ -37,7 +37,14 @@ a {
   padding: 10px;
   cursor: pointer;
   color: #ffffff;
+}
 
+.navbar_link:hover{
+  color: #f9b17a;
+}
+
+.navbar_link-brand:hover{
+  cursor: pointer;
 }
 
 .navbar_link:hover{
@@ -50,6 +57,8 @@ a {
   color: #fff;
 
 }
+
+
 
 .navbar_link_toggle{
   display: none;
