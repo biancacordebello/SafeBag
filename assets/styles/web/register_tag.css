@@ -68,14 +68,13 @@ body{
 
 #form input {
     padding: 13px;
-    background: #393c50d2;
+    background: #272c4288;
     margin: 10px 0;
     border-radius: 5px;
-    border: 1px solid #191c2dd2;
     transition: padding 0.5s ease;
     color: #fff;
     font-size: 15px;
-    border: 1px solid #a3a6bcc3;
+    border: 1px solid #a3a6bcae;
 }
 
 #form input:focus {
