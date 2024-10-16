@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family: "Lato", ;   
+    margin: 0;
+    color: #fff;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Lato';
+    background-color: #191c2d;
+}
+
+#img-bag-details {
+    width: 100vw;
+    background: linear-gradient(rgba(0, 0, 0, 0.799), #191c2de7), url('../../images/airport-text.jpg');
+    height: 30vh;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 0% 100%);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    transition: color 0.3s ease; 
+}
+
+#seta {
+    position: absolute;
+    padding: 20px;
+    padding-top: 0;
+    top: 20px;
+    left: 20px; 
+    font-size: 24px;
+    color: #fff;
+}
+
+#img-bag-details p {
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    z-index: 1;
+    font-family: 'Lato';
+}
+
+
+.container-tag{
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+
+
+#form {
+    width: 100%;
+}
+
+#form {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#form input {
+    padding: 13px;
+    background: #272c4288;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: padding 0.5s ease;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #a3a6bcae;
+}
+
+#form input:focus {
+    outline: none; 
+    border: 1px solid #f9b17a;
+}
+
+#form button {
+    padding: 11px 20px;
+    background-color: #ffc079e1;
+    color: #2d3250;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+#form button:hover {
+    background-color: #cd9453e1;
+}
+
+.container-tag h1{
+    color: white;
+    padding-bottom: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lato';
+}
