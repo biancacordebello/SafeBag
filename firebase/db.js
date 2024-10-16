@@ -1,5 +1,5 @@
 import app from './firebaseConfig.js';
-import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-database.js";
+import { getDatabase, ref, onValue, get } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-database.js";
 console.log('db.js foi carregado');
 const database = getDatabase(app);
 

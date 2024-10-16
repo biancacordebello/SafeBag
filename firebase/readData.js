@@ -40,6 +40,7 @@ function lerDadosMala(){
 
                
                 notificaElement.addEventListener('click', () => {
+                  localStorage.setItem('ID', notificaTexto);
                   window.location.href = 'bag_details.html';
                   });
 

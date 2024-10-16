@@ -41,13 +41,13 @@
 
     <div class="container-info-bagagem">
         <p>Nome do proprietário: </p>
-        <div id="nome-dono">Sara Melo</div>
+        <div id="nome-dono"></div>
     </div>
 
     
     <div class="container-info-bagagem">
         <p>Telefone: </p>
-        <div id="telefone-dono">(19)99494-0348</div>
+        <div id="telefone-dono"></div>
     </div>
 
     
@@ -59,15 +59,16 @@
 
     
     <div class="container-info-bagagem">
-        <p>RG: </p>
-        <div id="rg-dono">123.456.78-9</div>
+        <p>Email: </p>
+        <div id="email-dono"></div>
     </div>
 </div>
 
 <script>
     $(function(){
-    $("#navbar").load("../assets/partials/navbar.html"); // Caminho relativo
+    $("#navbar").load("../assets/partials/navbar.html");
     });
 </script>
+<script type="module" src="../firebase/readBag.js"></script>
 </body>
 </html>
