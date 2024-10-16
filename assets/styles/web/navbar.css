@@ -43,11 +43,22 @@ a {
   color: #f9b17a;
 }
 
+.navbar_link-brand:hover{
+  cursor: pointer;
+}
+
+.navbar_link:hover{
+  color: #f9b17a;
+
+}
+
 .navbar_link-brand{
   font-size: 25px;
   color: #fff;
 
 }
+
+
 
 .navbar_link_toggle{
   display: none;
