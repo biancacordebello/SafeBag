@@ -27,6 +27,9 @@
     <div class="container-tag">
         <h1>Informações do proprietário</h1>
         <form id="form">
+            <label for="nome">ID:</label>
+            <input type="text" id="tag" name="tag" placeholder="Digite a tag" required>
+
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" placeholder="Digite o nome do proprietário" required>
 
@@ -42,11 +45,12 @@
             <label for="telefone">Telefone:</label>
             <input type="tel" id="telefone" name="telefone"  placeholder="Digite o telefone do proprietário" required>
 
+            <div id="errorMessage" style="color: rgb(255, 105, 105); padding-top: 1rem; padding-bottom: 1rem;"></div>
             <button type="submit">Cadastrar</button>
         </form>
 </div>
 
-
+<script type="module" src="../firebase/storeData.js"></script>
 
 </body>
 </html>

@@ -1,4 +1,4 @@
-import { subscribeToData } from './db.js';
+import { subscribeToData, readData } from './db.js';
 
 function lerDadosMala(){
 
@@ -15,12 +15,15 @@ function lerDadosMala(){
                 
                 notificaElement.classList.add('id-mala');
                 notificaElement.textContent = 'Bagagem SAFE' + notificaId;
-                
 
+          
                 const notificaContent = document.createElement('div');
                 notificaContent.classList.add("info-mala");
                 const notificaP = document.createElement('p');
-                notificaP.textContent= notificaTexto;
+                
+                readData(`Mala/ID/${notificaTexto}/Dono`, (mensagem)=>{
+                  notificaP.textContent= "Destino Incorreto. Dono da mala: " + mensagem;
+                });   
                 notificaContent.appendChild(notificaP);
 
                 const icon = document.createElement('span');
@@ -51,7 +54,7 @@ function lerDadosMala(){
                 idMala.appendChild(notificaContent);
               });
         }else{
-            idMala.textContent="Nnenhuma"
+            idMala.textContent="Nenhum alerta emitido"
         }
        
       });
