@@ -1,6 +1,9 @@
 import { subscribeToData, readData } from './db.js';
 
+
+
 function lerDadosMala(){
+
 
     subscribeToData('Notifica', (data) => {
         console.log('Atualização em tempo real:', data);
@@ -44,6 +47,7 @@ function lerDadosMala(){
                
                 notificaElement.addEventListener('click', () => {
                   localStorage.setItem('ID', notificaTexto);
+                  localStorage.setItem('BAGID', notificaId);
                   window.location.href = 'bag_details.html';
                   });
 
@@ -58,5 +62,8 @@ function lerDadosMala(){
         }
        
       });
+    // }
+  // });
 }
+
 document.addEventListener('DOMContentLoaded', lerDadosMala);

@@ -18,7 +18,7 @@ userForm.addEventListener('submit', (e) => {
   const cpf = document.getElementById('cpf').value;
   const email = document.getElementById('email').value;
   const telefone = document.getElementById('telefone').value;
-  if (!validarID(idTag)) {
+  if (validarID(idTag)) {
     document.getElementById("errorMessage").textContent = "ID inválido. Apenas letras, números e underscores são permitidos.";
     return;
 }
