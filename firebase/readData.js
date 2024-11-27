@@ -66,4 +66,26 @@ function lerDadosMala(){
   // });
 }
 
-document.addEventListener('DOMContentLoaded', lerDadosMala);
+function configurarBusca() {
+  const txtBusca = document.getElementById('txtBusca');
+  const btnBusca = document.getElementById('btnBusca');
+  const idMala = document.getElementById('alerta');
+
+  btnBusca.addEventListener('click', () => {
+      // const filtro = txtBusca.value.toLowerCase();
+      const notificacoes = idMala.querySelectorAll('.id-mala');
+
+
+      if (txtBusca.value == 'Vinicius') {
+          
+      } else {
+        idMala.textContent = "Nenhum resultado encontrado";
+      }
+  });
+}
+
+// document.addEventListener('DOMContentLoaded', lerDadosMala);
+document.addEventListener('DOMContentLoaded', () => {
+  lerDadosMala();
+  configurarBusca();
+});
