@@ -76,8 +76,8 @@ function configurarBusca() {
       const notificacoes = idMala.querySelectorAll('.id-mala');
 
 
-      if (txtBusca.value == 'Vinicius') {
-          
+      if (txtBusca.value == 'Vinicius' || txtBusca.value == '') {
+          lerDadosMala();
       } else {
         idMala.textContent = "Nenhum resultado encontrado";
       }
